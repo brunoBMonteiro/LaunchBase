@@ -1,3 +1,10 @@
+:root {
+    --color-white: #e1e1e6;
+    --color-blackFundo: #121214;
+    --color-blackHeader: #202024;
+    --color-roxoRocket: #8257e6;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +12,13 @@
 }
 
 body {
+    background: var(--color-blackFundo);
     font-family: 'Roboto', sans-serif;
 }
 
 header {
     width: 100%;
-    background: rgb(32, 32, 36);
+    background: var(--color-blackHeader);
     padding: 30px;
     display: flex;
     align-items: center;
@@ -26,7 +34,7 @@ header img {
 header a{
     text-decoration: none;
     font-size: 18px;
-    color: rgb(225, 225, 230);
+    color: var(--color-white);
     font-weight: bold;
     cursor: pointer;
     padding: 30px;
